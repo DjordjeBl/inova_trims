@@ -3,6 +3,9 @@
 <?php get_header(); ?>
 <h1>O nama</h1>
 <hr>
+<!-- <div class="dragan-image">
+    <img src="http://localhost/inova_trims/wp-content/uploads/2016/09/dragan.jpg">
+</div>   -->
 <div class="page-content">
 <p>Kompanija je prvobitno osnovana još 1991 godine, pod nazivom TRIMS, sa osnovnom idejom da radi na daljem razvoju uređaja za pozicioniranje železničkih vagona duž železničkih koloseka.Uređaj je bio zasnovan na patentiranom tehničkom rešenju.</p>
 
