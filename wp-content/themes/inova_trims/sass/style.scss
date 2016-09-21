@@ -1,2 +1,9 @@
 @import "normalize";
 @import "bootstrap";
+
+.site-branding  {
+    background: url("images/animacija3.jpg") no-repeat center;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
