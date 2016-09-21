@@ -1,5 +1,6 @@
 @import "normalize";
 @import "bootstrap";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 
 header a img {
@@ -52,4 +53,64 @@ ul#primary-menu  {
             height: 400px;
         }
     }
+
+    & > p {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+}
+
+.site-footer {
+	font-size: 14px;
+    @extend .clearfix;
+	color: #fff;
+	background: #313131;
+	text-align: center;
+	padding: 10px;
+
+    h2 {
+        float: left;
+        width: 50%;
+        font-size: 22px;
+        border-right: 1px solid #fff;
+    }
+
+    .footer-menu {
+        float: right;
+        width: 50%;
+        margin: 0;
+        list-style: none;
+
+        li {
+            padding: 2px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+	.site-footer h2 {
+		float: none;
+		width: 100%;
+		border: none;
+	}
+
+	.site-footer h2::after {
+		content: '';
+		display: block;
+		background: #fff;
+		width: 11em;
+		height: 2px;
+		margin: 10px auto;
+	}
+
+	.site-footer .footer-menu {
+		float: left;
+		width: 100%;
+		text-align: left;
+	}
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
