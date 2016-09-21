@@ -24,7 +24,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			
+			<img src="images/animacija3.jpg" alt="">
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
