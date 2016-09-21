@@ -37,3 +37,19 @@ ul#primary-menu  {
         }
     }
 }
+
+.page-content {
+    margin-top: 50px;
+
+    .wrap-iframe {
+        text-align: center;
+        margin-bottom: 20px;
+
+        iframe {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            height: 400px;
+        }
+    }
+}
