@@ -1,17 +1,9 @@
 @import "normalize";
 @import "bootstrap";
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
-@import 'slick-theme';
-@import 'slick';
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "slick-theme";
+@import "slick";
 
-
-header a img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0 auto;
-}
 
 ul#primary-menu  {
     background: #313131;
@@ -131,3 +123,44 @@ hr {
 }
 
 
+.wrap-head {
+    display: none;
+
+    @media (min-width: #{$screen-md-min}) {
+        display: block;
+    }
+
+    div {
+        width: 100%;
+        height: 300px;
+
+        &:first-child {
+            background: url(images/animacija1.jpg) no-repeat;
+        }
+
+        &:nth-child(2) {
+            background: url(images/animacija2.jpg) no-repeat;
+        }
+
+        &:last-child {
+            background: url(images/animacija3.jpg) no-repeat;
+        }
+    }
+}
+
+.mobile-bg {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #8b8b8b, #fff);
+    text-align: center;
+
+    h1 {
+        color: #313131;
+        span {
+            color: #ff1111;
+        }
+    }
+
+@media (min-width: #{$screen-md-min}) {
+    display: none;
+}
+}

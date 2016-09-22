@@ -15,7 +15,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<!-- href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" -->
 <?php wp_head(); ?>
 </head>
 
@@ -25,12 +25,14 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 		</div><!-- .site-branding -->
-			<?php if ( get_header_image() ) : ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
-				</a>
-			<?php endif; // End header image check. ?>
-
+			<div class="wrap-head">
+				<div class="slick">
+					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
+					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
+					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
+				</div>
+			</div>
+			<div class="mobile-bg"><h1><span>inova</span> trims</h1></div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
