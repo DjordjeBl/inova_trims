@@ -6,30 +6,42 @@
 
 
 ul#primary-menu  {
-    background: #313131;
+    background: #fff;
     width: 100%;
     text-transform: uppercase;
     list-style: none;
     margin: 0;
     font-size: 0; /* fix li inline space hack */
     padding: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .11);
 
     li {
         display: inline-block;
-        margin: 0;
-        padding: 7px;
-
-        &:hover,
-        &.current_page_item {
-            background: #4d4d4d;
-        }
+        margin: 0;  
 
         a {
-            color: #fff;
+            color: #313131;
             text-decoration: none;
             font-size: 14px;
+            margin-right: 20px;
+            margin-left: 5px;
+            padding: 10px;
             display: block;
-            padding: 5px;
+
+            &:after {
+                content: '';
+                display: inline-block;
+                height: 4px;
+                width: 4px;
+                margin-left: 20px;
+                border-radius: 50%;
+                border: 1px solid #313131;
+            }
+
+            &:hover,
+            &.current_page_item {
+              color: #f38763;
+            }
         }
     }
 }
