@@ -27,9 +27,9 @@
 		</div><!-- .site-branding -->
 			<div class="wrap-head">
 				<div class="slick">
-					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
-					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
-					<div href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></div>
+					<div></div>
+					<div></div>
+					<div></div>
 				</div>
 			</div>
 			<div class="mobile-bg"><h1><span>inova</span> trims</h1></div>
