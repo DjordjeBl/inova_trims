@@ -34,6 +34,11 @@
 			</div>
 			<div class="mobile-bg"><h1><span>inova</span> trims</h1></div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle is-active" aria-controls="primary-menu" aria-expanded="false">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
