@@ -3,6 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 @import "slick-theme";
 @import "slick";
+@import "lightbox";
 
 
 ul#primary-menu  {
@@ -310,4 +311,12 @@ button:focus {
 	.main-navigation li a {
 		font-size: 14px;
 	}
+}
+
+.gallery-1 a img {
+    max-width: 100%;
+    max-height: 200px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
