@@ -117,6 +117,8 @@ function inova_trims_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'inova_trims_scripts' );
 
+
+
 /**
  * Implement the Custom Header feature.
  */
