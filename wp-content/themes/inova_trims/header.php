@@ -12,8 +12,11 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<title>Welcome to Inova Trims! - inovatrims.com</title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kompaniju INOVA TRIMS je izašla na tržište sa nekolkiko originalnih proizvoda. To su uređaji za zidne krevete za izradu kreveta svih vrsta i veličina.">
+<meta name="keywords" content="Zidni krevet, bračni krevet, krevet na sprat, stambeni krediti, prodaja stanova, cene automobila, najnovije vesti, današnje novine, kurs evra, vremenska prognoza, kuhinje po meri, televizori, mobilni telefoni, banje, turističke agencije, letovanja, dečiji kreveti, oprema za hotele, oprema za apartmane, mehanizam za zidni krevet, Beograd, Novi Sad, krevet u plakaru, spavaća soba, dušeci, madraci, Ikea, dareks, Iverica, medijapan, forma ideale, oprema za hostele,">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <!-- href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" -->
 <?php wp_head(); ?>
