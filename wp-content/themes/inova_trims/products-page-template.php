@@ -7,7 +7,6 @@
 $args = array(
     'numberposts' => -1,
     'post_type' => 'proizvodi',
-    'orderby' => 'title',
     'order' =>'ASC',
 );
 
@@ -18,11 +17,11 @@ $loop = new WP_Query( $args );
         <div class="col-xs-12 col-md-6 col-lg-4">
             <div><?php the_field('oznaka'); ?></div>
             <div><?php the_field('velicina_duseka'); ?></div>
-            <img src="<?php the_field('oblik_kreveta'); ?>"/>
+            <img src="<?php echo get_field('oblik_kreveta')['url']; ?>"/>
             <div><?php the_field('cena_mehanizama'); ?></div>
         </div>
     <?php endwhile; wp_reset_postdata(); ?>
 </div>
 </div>
 
-<?php get_footer(); ?
+<?php get_footer(); ?>
