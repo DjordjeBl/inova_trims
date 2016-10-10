@@ -328,5 +328,25 @@ h2 {
 }
 
 .row  div {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.row .product-list {
+    list-style: none;
+    
+    
+    li {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid;
+        
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            width: 100%;
+        }
+    }
 }
