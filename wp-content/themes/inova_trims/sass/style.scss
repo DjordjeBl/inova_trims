@@ -302,6 +302,11 @@ button:focus {
 
 	.main-navigation li {
 		width: 100%;
+        border-bottom: 1px solid;
+
+        &:last-child {
+            border-bottom: none;
+        }
 
         &:before,
         &:after {
